@@ -12,5 +12,4 @@ const setState = (id) => {
 
 const changeState = (id) => {
     window.history.replaceState({}, '', '/contact?user='+id);
-    // window.location.href = '/contact?user='+id;
 }
